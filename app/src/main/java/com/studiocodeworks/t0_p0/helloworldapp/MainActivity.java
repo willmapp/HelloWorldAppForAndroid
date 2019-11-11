@@ -16,6 +16,8 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // simple comment added to this file
+
         TextView nonDescriptTextView = (TextView)findViewById(R.id.textview_non_descript_text);
         nonDescriptTextView.setText("Hello World!");
     }
